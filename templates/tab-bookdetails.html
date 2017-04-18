@@ -1,0 +1,24 @@
+<ion-view view-title="Stockholm Bed & Breakfast">
+    <ion-content class="padding">
+        <h3 class="text-center">Enter credentials, step 3/3</h3>
+        <div class="list">
+            <form name="details" >
+                    <label class="item item-input">
+                        <input type="text" placeholder="Name" ng-model="book.name" required>
+                    </label>
+                    <label class="item item-input">
+                        <input type="text" placeholder="Surname" ng-model="book.sname" required>
+                    </label>
+                    <label class="item item-input">
+                            <input type="email" placeholder="Email" ng-model="book.email" required>
+                        </label>
+                        <span ng-show="details.$error.email">Not a valid e-mail</span>
+                    
+                    <label class="item item-input">
+                        <input type="number" placeholder="Telefon" ng-model="book.phone" required>
+                    </label>
+                    <a href="#/tab/book/confirmation" class="button button-positive button-block" ng-disabled="details.$invalid">Confirm</a>
+                </form>
+        </div>
+    </ion-content>
+</ion-view>

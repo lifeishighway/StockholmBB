@@ -1,0 +1,17 @@
+<ion-view view-title="Stockholm Bed & Breakfast" ng-controller="ListRooms">
+    <ion-content class="padding">
+        <h3 class="text-center">Our offer</h3>
+            <div class="card bgnd" ng-click="toggleGroup(item)" ng-repeat="item in rooms"  ng-class="{active: isGroupShown(item)}">
+                    <div class="item item-divider item-text-wrap bgnd">
+                        <h2 class="lheight">{{item.roomType}}, max nr of guests: {{item.roomMax}}, {{item.roomPrice}}kr</h2>
+                        <i class="icon toright" ng-class="isGroupShown(item) ? 'ion-chevron-up' : 'ion-chevron-down'"></i>
+                    </div>
+                <div class="item-accordion" ng-show="isGroupShown(item)">
+                    <img class="full-image" ng-src="/img/{{item.roomPic}}.jpg" />
+                    <div class="item item-divider item-text-wrap">
+                       <p>{{item.roomDescription}}</p>
+                    </div>
+                </div>
+            </div>
+    </ion-content>
+</ion-view>

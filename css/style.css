@@ -1,0 +1,75 @@
+.item-accordion {
+  line-height: 1em;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: 0.1s ease-in;
+}
+.item-accordion.ng-hide {
+  line-height: 0px;
+}
+.item-accordion.ng-hide-add,
+.item-accordion.ng-hide-remove {
+  display: block !important;
+}
+
+
+  .card {
+    position: relative;
+    text-align: center;
+  }
+
+  .card-title {
+    position: absolute;
+    top: 36%;
+    font-size: 2.0em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    color: #fff;
+  }
+  .lheight{
+      line-height:1.5em;
+      display:inline;
+      float: left;
+  }
+  .rheight{
+      display: inline;
+      float:right;
+  }
+  .toright{
+      float:right
+  }
+  .toleft{
+      float:left;
+  }
+  .aboutbgnd{
+     background:url(/img/hotell.jpg)no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;}
+
+  .description{
+    background-color:rgba(207, 220, 222, 0.85);
+}
+  .bgnd{
+      background-color:rgba(207, 220, 222, 0.85);
+  }
+  .tab-nav{
+      background-color:rgba(174, 218, 225, 0.85);
+  }
+  .card-color{
+ background-color:rgba(174, 218, 225, 0.70);
+  }
+.thick {
+    color: brown;
+    font-weight: bold;
+}
+

@@ -1,0 +1,15 @@
+<ion-view view-title="Stockholm Bed & Breakfast">
+    <ion-content class="padding">
+        <h3 class="text-center">Bookning confirmation</h3>
+                <div class="padding text-center" >
+                    <h3>Room booked!</h3>
+                    <p>You have booked a <span class="thick">{{book.room.roomType}}</span> room</p>
+                    <p>Price for this room: <span class="thick">{{book.room.roomPrice}}</span> kr.</p>
+                    <p>Reservation is valid from <span class="thick">{{book.chIn|date:fulldate}}</span> to <span class="thick">{{book.chOu|date:fulldate}}</span></p>
+                    <p>Booked for person: <span class="thick">{{book.name}} {{book.sname}}</span></p>
+                    <p>Booked for: <span class="thick">{{book.adult}}</span> adults and <span class="thick">{{book.child}}</span> children</p>
+                    <p>email: <span class="thick">{{book.email}}</span></p>
+                    <p>number: <span class="thick">{{book.phone}}</span></p>
+                </div>
+    </ion-content>
+</ion-view>

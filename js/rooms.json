@@ -1,0 +1,42 @@
+﻿[
+  {
+    "roomID": "1",
+    "roomType": "Single-Min",
+    "roomMax": "1",
+    "roomPrice": "180",
+    "roomDescription": "1 single bed with option for one extra bed, bathroom with shower, mirror, tv with 30 canals",
+    "roomPic": "single-min"
+  },
+  {
+    "roomID": "2",
+    "roomType": "Single-Max",
+    "roomMax": "2",
+    "roomPrice": "300",
+    "roomDescription": "1 single bed with option for one extra bed, bathroom with shower, mirror, tv with 30 canals",
+    "roomPic": "single-max"
+  },
+  {
+    "roomID": "3",
+    "roomType": "Double-Min",
+    "roomMax": "2",
+    "roomPrice": "450",
+    "roomDescription": "1 double bed with option for one extra single bed, bathroom with shower, mirror, tv with 30 canals",
+    "roomPic": "double-min"
+  },
+  {
+    "roomID": "4",
+    "roomType": "Double-Max",
+    "roomMax": "4",
+    "roomPrice": "600",
+    "roomDescription": "1 double bed with option for one extra single bed, bathroom with shower, mirror, tv with 30 canals",
+    "roomPic": "double-max"
+  },
+  {
+    "roomID": "5",
+    "roomType": "Family",
+    "roomMax": "6",
+    "roomPrice": "1000",
+    "roomDescription": "1 double bed, 2 single beds with option for two extra single beds, own pentry, bathroom with shower, mirror, tv with 30 canals",
+    "roomPic": "family"
+  }
+]

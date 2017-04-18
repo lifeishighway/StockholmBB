@@ -1,0 +1,14 @@
+<ion-view view-title="Stockholm Bed & Breakfast" ng-controller="ListRooms">
+    <ion-content class="padding">
+        <h3 class="text-center">Choose a room, step 2/3</h3>
+        
+        <ion-list>
+        <ion-item ng-repeat='item in rooms' class="item-thumbnail-left item-text-wrap" href="#/tab/book/details" ng-click="setRoom(item)">
+        <img src="/img/{{item.roomPic}}.jpg" /> 
+            <h2>{{item.roomType}}</h2>
+            <h3>Max nr of guests: {{item.roomMax}}</h3> 
+            <h3>Price: {{item.roomPrice}}</h3>
+            </ion-item>
+            </ion-list>
+    </ion-content>
+</ion-view>

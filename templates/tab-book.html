@@ -1,0 +1,27 @@
+<ion-view view-title="Stockholm Bed & Breakfast">
+  <ion-content class="padding">
+      <h3 class="text-center">Enter information, step 1/3</h3>
+      <div class="list">
+          <form name="reservation" >
+              <label class="item item-input">
+                  <span class="input-label">Check-in Date:</span>
+                  <input type="date" id="resCI" ng-model="book.chIn" required>
+              </label>
+              <label class="item item-input">
+                  <span class="input-label">Check-out Date:</span>
+                  <input type="date" id="resCO" ng-model="book.chOu" required>
+              </label>
+              <label class="item item-input">
+                  <span class="input-label">Adults:</span>
+                  <input required class="bgnd" type="number" min="0" ng-model="book.adult" id="adult">
+              </label>
+              <label class="item item-input">
+                  <span class="input-label">Children:</span>
+                  <input required class="bgnd" type="number" min="0" ng-model="book.child" id="child">
+              </label>
+              <a href="#/tab/book/list" class="button button-block button-positive" ng-disabled="reservation.$invalid">Choose Room</a>
+          </form>
+      </div>
+
+</ion-content>
+</ion-view>
